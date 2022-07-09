@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>모바일 사용자를 위해 올바른 입력 요소 사용하기</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>모바일 사용자를 위해 올바른 입력 요소 사용하기</h1>
+
+      <div class="number">
+        <label for="input__number">Number</label>
+        <input
+          type="number"
+          id="input__number"
+          placeholder="input type number"
+        />
+      </div>
+
+      <div class="tel">
+        <label for="input__tel">Tel</label>
+        <input type="tel" id="input__tel" placeholder="input type tel" />
+      </div>
+
+      <div class="email">
+        <label for="input__email">Email</label>
+        <input type="email" id="input__email" placeholder="input type email" />
+      </div>
+
+      <div class="search">
+        <label for="input__search">Search</label>
+        <input
+          type="search"
+          id="input__search"
+          placeholder="input type search"
+        />
+      </div>
+
+      <div class="date">
+        <label for="input__date">Date</label>
+        <input type="date" id="input__date" placeholder="input type date" />
+      </div>
+
+      <div class="month">
+        <label for="input__month">Month</label>
+        <input type="date" id="input__month" placeholder="input type month" />
+      </div>
+
+      <div class="time">
+        <label for="input__time">Time</label>
+        <input type="time" id="input__time" placeholder="input type time" />
+      </div>
+    </main>
+  </body>
+</html>
