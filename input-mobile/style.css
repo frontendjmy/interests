@@ -21,15 +21,15 @@ main {
 
 .input-type__box input {
   width: 100%;
-  border: 2px solid #e5e8eb;
+  height: 50px;
+  border: 1px solid #e5e8eb;
   border-radius: 5px;
-  padding: 10px;
   outline: none;
-  transition: 1s all linear;
+  transition: 1.5s all ease-in;
 }
 
 .input-type__box input:focus {
-  border-color: #0077ff;
+  border: 2px solid #0077ff;
 }
 
 .input-type__box label {
