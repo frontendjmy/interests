@@ -1,48 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>모바일 사용자를 위해 올바른 입력 요소 사용하기</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <main>
-      <h1>모바일 사용자를 위해 올바른 입력 요소 사용하기</h1>
-
       <div class="input-type">
-        <label for="number">Number</label>
-        <input type="number" id="number" placeholder="input type number" />
-      </div>
+        <h1>
+          모바일 사용자를 위해 <br />
+          올바른 입력 요소 사용하기
+        </h1>
 
-      <div class="input-type">
-        <label for="tel">Tel</label>
-        <input type="tel" id="tel" placeholder="input type tel" />
-      </div>
+        <div class="input-type__box">
+          <label for="number">Number</label>
+          <input
+            type="number"
+            id="number"
+            placeholder="&#60;input type=&#34;number&#34;/&#62;"
+          />
+        </div>
 
-      <div class="input-type">
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="input type email" />
-      </div>
+        <div class="input-type__box">
+          <label for="tel">Tel</label>
+          <input
+            type="tel"
+            id="tel"
+            placeholder="&#60;input type=&#34;tel&#34;/&#62;"
+          />
+        </div>
 
-      <div class="input-type">
-        <label for="search">Search</label>
-        <input type="search" id="search" placeholder="input type search" />
-      </div>
+        <div class="input-type__box">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="&#60;input type=&#34;email&#34;/&#62;"
+          />
+        </div>
 
-      <div class="input-type">
-        <label for="date">Date</label>
-        <input type="date" id="date" placeholder="input type date" />
-      </div>
+        <div class="input-type__box">
+          <label for="search">Search</label>
+          <input
+            type="search"
+            id="search"
+            placeholder="&#60;input type=&#34;search&#34;/&#62;"
+          />
+        </div>
 
-      <div class="input-type">
-        <label for="month">Month</label>
-        <input type="date" id="month" placeholder="input type month" />
-      </div>
+        <div class="input-type__box">
+          <label for="date">Date</label>
+          <input type="date" id="date" />
+        </div>
 
-      <div class="input-type">
-        <label for="time">Time</label>
-        <input type="time" id="time" placeholder="input type time" />
+        <div class="input-type__box">
+          <label for="time">Time</label>
+          <input type="time" id="time" />
+        </div>
       </div>
     </main>
   </body>
