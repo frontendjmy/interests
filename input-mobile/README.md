@@ -2,3 +2,4 @@
 
 벨로그 포스팅 글인 "모바일 사용자를 위한 Input type 사용하기"사이트
 배포를 위한 HTML 파일입니다.
+https://frontendjmy.github.io/interests/input-mobile/index.html
