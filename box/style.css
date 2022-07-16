@@ -9,7 +9,6 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  box-shadow: 1px 1px 3px #000000;
 }
 
 .box-set {
@@ -21,40 +20,38 @@
 }
 
 .margin {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-color: #ff6f61;
+  box-shadow: 1px 1px 3px #000000;
 }
 
 .border {
-  width: 200px;
-  height: 200px;
-  background-color: #0f4c81;
-}
-
-.border:hover {
   width: 300px;
   height: 300px;
+  background-color: #0f4c81;
+  border: 2px solid black;
+  box-shadow: 1px 1px 3px #000000;
 }
 
 .padding {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   background-color: #939597;
-}
-
-.padding:hover {
-  width: 300px;
-  height: 300px;
+  box-shadow: 1px 1px 3px #000000;
 }
 
 .content {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-color: #6868ac;
+  box-shadow: 1px 1px 3px #000000;
 }
 
+.border:hover,
+.padding:hover,
 .content:hover {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
+  transition: 1.5s all;
 }
