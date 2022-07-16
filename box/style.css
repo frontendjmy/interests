@@ -51,7 +51,18 @@
 .border:hover,
 .padding:hover,
 .content:hover {
-  width: 400px;
-  height: 400px;
+  width: 100%;
   transition: 1.5s all;
+}
+
+.border:hover {
+  height: 350px;
+}
+
+.padding:hover {
+  height: 300px;
+}
+
+.content:hover {
+  height: 250px;
 }
