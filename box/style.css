@@ -1,6 +1,7 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
 * {
+  margin: 0;
   font-family: "Spoqa Han Sans Neo", "sans-serif";
 }
 
@@ -9,6 +10,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #ffffff;
 }
 
 .box-set {
