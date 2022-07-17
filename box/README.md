@@ -5,8 +5,8 @@
 
 ![box-model](./box-model.JPG)
 
-벨로그
+**벨로그**  
 [https://velog.io/@moonshaine/CSS-%EB%B0%95%EC%8A%A4-%EB%AA%A8%EB%8D%B8%EA%B3%BC-box-sizing-%EC%86%8D%EC%84%B1](https://velog.io/@moonshaine/CSS-%EB%B0%95%EC%8A%A4-%EB%AA%A8%EB%8D%B8%EA%B3%BC-box-sizing-%EC%86%8D%EC%84%B1)
 
-배포 사이트
+**배포 사이트**  
 [https://frontendjmy.github.io/interests/box/index.html](https://frontendjmy.github.io/interests/box/index.html)
