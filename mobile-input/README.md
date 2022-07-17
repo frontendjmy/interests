@@ -2,6 +2,7 @@
 
 벨로그 포스팅 글 "모바일 사용자를 위한 텍스트필드 제공하기"사이트
 배포를 위한 HTML, CSS 파일입니다.
+![box-model](./mobile-input.JPG)
 
 블로그  
 [https://velog.io/@moonshaine/mobile-input](https://velog.io/@moonshaine/mobile-input)
